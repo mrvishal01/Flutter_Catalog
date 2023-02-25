@@ -4,23 +4,22 @@ import 'package:google_fonts/google_fonts.dart';
 import 'Screens/Home.dart';
 import 'Screens/Login.dart';
 
-void main(){
+void main() {
   runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      theme:  ThemeData(
+      theme: ThemeData(
         brightness: Brightness.light,
-        primarySwatch: Colors.deepPurple  ,
-        fontFamily : GoogleFonts.lato().fontFamily,
+        primarySwatch: Colors.deepPurple,
+        fontFamily: GoogleFonts.lato().fontFamily,
       ),
       routes: {
-        "/": (context) => Login(),
+        "/": (context) => Home(),
         MyRoutes.homeRoute: (context) => Home(),
         MyRoutes.loginRoute: (context) => Login(),
       },
