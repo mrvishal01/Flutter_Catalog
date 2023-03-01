@@ -1,0 +1,31 @@
+{
+    "products" : [
+        {
+            "id" : 1,
+            "name" : "iPhone 12 Pro",
+            "desc" : "Apple 12th generation Recently launch",
+            "price" : 999,
+            "color" :  "#33505a",
+            "image" : "assets/images/iphone.png"
+        },
+
+        {
+            "id" : 2,
+            "name" : "pixel 5",
+            "desc" : "Google pixel phone 5th Generation",
+            "price" : 578,
+            "color" :  "#00ac51",
+            "image" : "assets/images/pixel5.jfif"
+        },
+
+        {
+            "id" : 3,
+            "name" : "Vivo Y20",
+            "desc" : "Vivo launch by Y20 Model",
+            "price" : 587,
+            "color" :  "#00ac51",
+            "image" : "assets/images/vivo.png"
+        }
+
+    ]
+}
