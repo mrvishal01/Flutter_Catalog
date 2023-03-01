@@ -13,7 +13,7 @@ class itemWidget extends StatelessWidget {
         onTap: () {
           print("${item.name} pressed");
         },
-        leading: Image.asset("assets/images/IPHONE.jfif"),
+        leading: Image.asset(item.image),
         title: Text(item.name),
         subtitle: Text(item.desc),
         trailing: Text(
